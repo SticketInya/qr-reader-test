@@ -23,7 +23,7 @@ export default function Home() {
         onResult={(result, error) => {
           if (!!result) {
             console.log(result);
-            setData(result?.text);
+            setData((result as any)?.text);
           }
 
           if (!!error) {
