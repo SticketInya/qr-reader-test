@@ -31,7 +31,7 @@ export default function Home() {
           }
         }}
         containerStyle={{ width: '400px' }}
-        constraints={{}}
+        constraints={{ facingMode: 'environment' }}
       />
       <p>{data}</p>
     </main>
